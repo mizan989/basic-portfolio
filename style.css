@@ -1,0 +1,154 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+#wall{
+    position: relative;
+    width: 100%;
+    height: 558px;
+}
+
+#header{
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(101, 103, 103);
+}
+
+#name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 40%;
+    align-items: start;
+    background-color: black;
+}
+
+h2{
+    position: absolute;
+    left: 10px;
+    color: rgb(247, 247, 255);
+    font-family: CustomFont; 
+}
+
+#home{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 60px;
+    left: 1000px;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+}
+
+#insta{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 60px;
+    left: 1080px;
+    color: rgb(255, 255, 255);
+}
+
+#twitter{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 60px;
+    left: 1150px;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#op{
+    display: flex;
+    top: 150px;
+    left: 50px;
+    position: absolute;
+    align-self: center;
+    width: 600px;
+    border-radius: 3px;
+}
+
+#trans{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    opacity: 20%;
+}
+
+@font-face {
+    font-family: 'CustomFont' ;
+    src: url("fonts/RoundStyle-Bold.ttf" );
+}
+
+@font-face {
+    font-family: 'Round';
+    src: url(fonts/AlteHaasGroteskBold.ttf);
+}
+
+#one{
+    display: flex;
+    position: absolute;
+    font-size: 80px;
+    top: 150px;
+    right: 90px;
+    font-family: Round;
+    text-shadow: -0.5px -0.5px white,0.5px -0.5px white,-0.5px 0.5px white,0.5px 0.5px white;
+}
+
+#two{
+    
+    display: flex;
+    position: absolute;
+    font-size: 80px;
+    right: 175px;
+    top: 240px;
+    font-family: Round;
+    text-shadow: -0.5px -0.5px white,0.5px -0.5px white,-0.5px 0.5px white,0.5px 0.5px white;
+}
+
+#three{
+    display: flex;
+    position: absolute;
+    color: rgba(40, 39, 39, 0.982);
+    text-shadow: 10px;
+    font-size: 60px;
+    right: 180px;
+    top: 340px;
+    font-family: Round;
+    text-shadow: -0.5px -0.5px white,0.5px -0.5px white,-0.5px 0.5px white,0.5px 0.5px white;
+}
+
+#catimg{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    width: 900px;
+    height: 400px;
+}
+
+#cat{
+    height: 350px;
+    border-radius: 50%;
+}
